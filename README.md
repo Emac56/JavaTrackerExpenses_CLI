@@ -2,35 +2,45 @@
 
 A Java Console Application for managing and tracking household expenses.
 
-This project follows a layered architecture inspired by backend development concepts commonly used in frameworks such as Spring Boot. Expense data is stored locally using a TXT file database.
+This project was built to practice Java fundamentals, Object-Oriented Programming (OOP), file handling, and layered architecture concepts commonly used in backend development frameworks such as Spring Boot.
 
 ---
 
 ✨ Features
 
-- Add New Expenses
-- View All Expenses
-- Dynamic Category Totals
-- Grand Total Calculation
-- Auto Generated Expense ID
-- Auto Generated Date & Time
-- Exit Confirmation Validation
-- File-Based Storage (TXT Database)
-- Layered Architecture
+- ✅ Add New Expenses
+- ✅ View All Expenses
+- ✅ Dynamic Category Totals
+- ✅ Grand Total Calculation
+- ✅ Auto Generated Expense ID
+- ✅ Auto Generated Date & Time
+- ✅ Exit Confirmation Validation
+- ✅ File-Based Storage (TXT Database)
+- ✅ Layered Architecture
 
 ---
 
 🏗 Architecture
 
-UI
- ↓
-Actions
- ↓
-Controller
- ↓
-Repository
- ↓
-TXT Database
+┌──────────┐
+│    UI    │
+└────┬─────┘
+     │
+┌────▼─────┐
+│ Actions  │
+└────┬─────┘
+     │
+┌────▼─────┐
+│Controller│
+└────┬─────┘
+     │
+┌────▼─────┐
+│Repository│
+└────┬─────┘
+     │
+┌────▼─────┐
+│ TXT File │
+└──────────┘
 
 ---
 
@@ -68,7 +78,7 @@ com.demo
 
 💾 Data Storage
 
-Expenses are stored inside:
+Expenses are stored locally inside:
 
 src/main/resources/Data/expenses.txt
 
@@ -76,19 +86,19 @@ Example:
 
 1,Rice,Food,250.0,2026-06-24T04:30:00
 2,Internet,Bills,999.0,2026-06-24T04:35:00
+3,Transportation,Transport,120.0,2026-06-24T04:40:00
 
 ---
 
 🛠 Technologies Used
 
 - Java
-- J Studio - Android Application
 - Object-Oriented Programming (OOP)
 - File Handling
-- LocalDateTime
+- LocalDateTime API
 - ArrayList
 - HashMap
-- Console-Based UI
+- Console-Based User Interface
 
 ---
 
@@ -103,9 +113,9 @@ Auto ID Generation| ✅
 Auto Date Generation| ✅
 Exit Validation| ✅
 TXT Database Storage| ✅
-Search Expense| ⏳
-Update Expense| ⏳
-Delete Expense| ⏳
+Search Expense| ⏳ Planned
+Update Expense| ⏳ Planned
+Delete Expense| ⏳ Planned
 
 ---
 
@@ -114,7 +124,7 @@ Delete Expense| ⏳
 This project was created to practice:
 
 - Java Fundamentals
-- OOP Principles
+- Object-Oriented Programming
 - File Handling
 - Collections Framework
 - Layered Architecture
@@ -125,14 +135,14 @@ This project was created to practice:
 
 🚀 Planned Features (V2)
 
-- Search Expense
-- Update Expense
-- Delete Expense
-- Better Input Validation
-- Category Reports
-- Monthly Reports
-- MySQL Integration
-- Spring Boot Migration
+- 🔍 Search Expenses
+- ✏️ Update Expenses
+- 🗑 Delete Expenses
+- ✅ Better Input Validation
+- 📊 Category Reports
+- 📅 Monthly Reports
+- 🗄 MySQL Integration
+- 🌱 Spring Boot Migration
 
 ---
 
@@ -142,4 +152,4 @@ Emac Vicente
 
 BSIT Student
 
-Java Console Application Projectt
+Java Console Application Project
