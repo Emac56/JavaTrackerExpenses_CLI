@@ -9,11 +9,11 @@ public class TotalExpensesUI {
         System.out.println("         TOTAL EXPENSES   ");
         System.out.println("==========================");
         System.out.println(" ");
-        System.out.println("      No Expenses Found   ");
+        ConsoleUtil.noExpensesFoundBanner();
     }
     public static void showHeader() {
         System.out.println("==========================");
-        System.out.println("      TOTAL EXPENSES");
+        System.out.println("      TOTAL EXPENSES      ");
         System.out.println("==========================");
         System.out.println();
         

@@ -19,7 +19,8 @@ public class ViewExpensesUI {
     
     public static void showData(
         ExpensesModel expense) {
-
+            
+            System.out.println();
     System.out.println("ID: " + expense.getId());
     System.out.println("Expense Name: " +
             expense.getExpensesName());

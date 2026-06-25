@@ -1,6 +1,7 @@
 package com.demo.Utils;
 import java.util.Scanner;
 
+
 public class ConsoleUtil {
     
     public static Scanner input = new Scanner(System.in);
@@ -12,7 +13,11 @@ public class ConsoleUtil {
     }
     
     public static void pause() {
-    System.out.println("\nPress Enter to continue...");
-    new java.util.Scanner(System.in).nextLine();
+    System.out.print("\nPress Enter to continue... ");
+    input.nextLine();
+    }
+    
+    public static void noExpensesFoundBanner() {
+        System.out.println("      No Expenses Found   ");
     }
 }

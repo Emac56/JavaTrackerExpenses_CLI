@@ -23,10 +23,11 @@ public class MainUI {
         
             /*MAIN MENU UI*/
             System.out.println("  ");
-            System.out.println("1: Add Expense");
-            System.out.println("2: View Expense");
-            System.out.println("3: Total Expense");
-            System.out.println("4: Exit");
+            System.out.println("1: Add Expenses");
+            System.out.println("2: View Expenses");
+            System.out.println("3: Total Expenses");
+            System.out.println("4: Search Expenses");
+            System.out.println("5: Exit");
             System.out.println(" ");
             System.out.print("Select option: ");
             int option = ConsoleUtil.input.nextInt();

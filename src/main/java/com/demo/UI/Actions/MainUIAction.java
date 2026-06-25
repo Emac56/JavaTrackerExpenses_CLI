@@ -31,6 +31,10 @@ public class MainUIAction {
             
             case 4:
             ConsoleUtil.clearScreen();
+            SearchExpensesUI.menu();
+            ConsoleUtil.pause();
+            case 5:
+            ConsoleUtil.clearScreen();
             return ExitValidation.confirm();
             
             default:
