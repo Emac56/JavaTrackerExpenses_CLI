@@ -7,40 +7,49 @@ import com.demo.Validations.*;
 
 public class MainUIAction {
     static ExpensesModel expenses;
+    
     public static boolean showUI(int option) {
+    
+    switch (option) {
         
-        switch (option) {
-            
-            case 1:
+        case 1:
             ConsoleUtil.clearScreen();
             AddExpensesUI.show();
             ConsoleUtil.pause();
             return true;
             
-            case 2:
+        case 2:
             ConsoleUtil.clearScreen();
             ViewExpensesAction.showExpenses();
             ConsoleUtil.pause();
             return true;
             
-            case 3:
+        case 3:
             ConsoleUtil.clearScreen();
             TotalExpensesAction.showTotalExpenses();
             ConsoleUtil.pause();
             return true;
             
-            case 4:
+        case 4:
             ConsoleUtil.clearScreen();
             SearchExpensesUI.menu();
             ConsoleUtil.pause();
-            case 5:
+            return true;
+            
+        case 5:
+            ConsoleUtil.clearScreen();
+            DeleteExpensesUI.show();
+            ConsoleUtil.pause();
+            return true;
+            
+        case 6:
             ConsoleUtil.clearScreen();
             return ExitValidation.confirm();
             
-            default:
+        default:
             System.out.println("Invalid option");
             ConsoleUtil.pause();
             return true;
-        }
     }
+}
 }

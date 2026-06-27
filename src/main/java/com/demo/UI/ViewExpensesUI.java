@@ -7,7 +7,7 @@ public class ViewExpensesUI {
     
     public static void showHeader() {
         System.out.println("==========================");
-        System.out.println("         VIEW EXPENSE      ");
+        System.out.println("         VIEW EXPENSES      ");
         System.out.println("==========================");
         System.out.println(" ");
     }

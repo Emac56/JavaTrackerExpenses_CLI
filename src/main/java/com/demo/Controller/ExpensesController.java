@@ -53,4 +53,7 @@ public class ExpensesController {
         }
         return result;
     }
+    public static boolean deleteExpense(int id) {
+    return ExpensesRepository.deleteExpense(id);
+}
 }

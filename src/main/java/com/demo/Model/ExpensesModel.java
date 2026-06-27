@@ -3,7 +3,7 @@ import java.time.LocalDateTime;
 
 public class ExpensesModel {
     
-    private int id = 1;
+    private int id;
     private String expensesName;
     private String category;
     private double amount;

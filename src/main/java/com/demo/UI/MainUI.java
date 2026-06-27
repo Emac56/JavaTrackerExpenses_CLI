@@ -3,6 +3,7 @@ package com.demo.UI;
 import java.util.Scanner;
 import com.demo.Utils.*;
 import com.demo.UI.Actions.*;
+import com.demo.UI.*;
 
 public class MainUI {
     
@@ -27,7 +28,8 @@ public class MainUI {
             System.out.println("2: View Expenses");
             System.out.println("3: Total Expenses");
             System.out.println("4: Search Expenses");
-            System.out.println("5: Exit");
+            System.out.println("5: Delete Expenses");
+            System.out.println("6: Exit");
             System.out.println(" ");
             System.out.print("Select option: ");
             int option = ConsoleUtil.input.nextInt();
